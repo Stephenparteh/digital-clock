@@ -3,14 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: black;
+}
 p {
   color: white;
 }
 main {
-  height: 100vh;
+  height: 95vh;
   width: 100%;
   display: flex;
-  background-color: black;
 }
 
 section {
@@ -26,23 +28,23 @@ div {
   text-align: center;
 }
 
-#time{
-    font-size: 80px;
-    font-weight: bold;
+#time {
+  font-size: 80px;
+  font-weight: bold;
 }
-@media only screen and (max-width: 766px){
-    #time{
-        font-size: 35px;
-    }
+@media only screen and (max-width: 766px) {
+  #time {
+    font-size: 35px;
+  }
 }
 
-@media only screen and (max-width: 600px){
-    #time{
-        font-size: 30px;
-    }
+@media only screen and (max-width: 600px) {
+  #time {
+    font-size: 30px;
+  }
 }
-@media only screen and (max-width: 520px){
-    #time{
-        font-size: 25px;
-    }
+@media only screen and (max-width: 520px) {
+  #time {
+    font-size: 25px;
+  }
 }

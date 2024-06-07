@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  color: white;
+}
+main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: black;
+}
+
+section {
+  width: 55%;
+  height: 250px;
+  border: 5px solid white;
+  margin: auto;
+  background-color: rgb(59, 59, 59);
+  display: flex;
+}
+div {
+  margin: auto;
+  text-align: center;
+}
+
+#time{
+    font-size: 80px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 766px){
+    #time{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #time{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 520px){
+    #time{
+        font-size: 25px;
+    }
+}
